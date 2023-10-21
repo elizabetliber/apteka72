@@ -1,0 +1,42 @@
+.header__container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1542px;
+}
+
+.header__logo_input{
+    display: flex;
+    flex-direction: row;
+}
+
+.header__logoHref{
+    display: block;
+    height: 55px;
+}
+
+.header__input{
+    padding-left: 15px;
+    margin-left: 15px;
+    width: 550px;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+.header__item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    gap: 7px;
+}
+
+.header__item_icon{
+    height: 30px;
+    width: 30px;
+}

@@ -1,0 +1,27 @@
+.hero__container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1542px;
+}
+.hero__discount{
+    width: 1542px;
+    margin: 50px 0;
+}
+.hero__offers_container{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    flex-flow: wrap;
+}
+.hero__offer{
+    max-width: 292px;
+    max-height: 292px;
+}
+
+.hero__offer_text{
+    font-size: 2em;
+    margin: 0.67em 0;
+    color: #4665d7;
+    font-weight: 500;
+}
